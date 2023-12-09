@@ -1,0 +1,14 @@
+@media only screen and (max-width: 480px) {
+    .row {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+    h3{
+        font-size: medium;
+    }
+    h5{
+        font-size: small;
+    }
+  }
+ 

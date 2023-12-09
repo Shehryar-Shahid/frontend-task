@@ -1,0 +1,21 @@
+.main_content-cardStyle{
+    box-shadow: -1px -1px rgb(202, 201, 201) ;
+    background-color: white
+    
+}
+.main-content_card-paratext{
+    color: silver;
+}
+@media only screen and (max-width: 480px) {
+    .main_content-card{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    h4{
+        font-size: 1.1rem;
+    }
+    .main-content_card-paratext{
+        width: 100% !important;
+        font-size: 0.85rem;
+    }
+}

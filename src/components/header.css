@@ -1,0 +1,137 @@
+.header{
+    background-image: url("../imgs/header_bg.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: fit-content;
+    margin: 0%;
+    padding: 0%;
+}
+.main_section-card{
+    height: fit-content;
+  
+}
+.main_section-card_items{
+    height: 90%;
+    margin-top: 3px;
+    align-items: center;
+    
+   
+}
+.main_section-card_items> h6{
+    color: black;
+}
+.main_section-card_items-text{
+    margin-left: 0%;
+    width: 90%;
+    text-align: center; 
+
+}
+.main_section-card_items-checkmark{
+    width: 10%;
+    height: 90%;
+   
+    margin-right: 3%;
+}
+/* .main_section{
+
+} */
+.main_section-badge{
+    height: 40%;
+   
+
+}
+.main_section-col{
+    display: flex;
+    /* border: 1px solid rgb(114, 34, 34); */
+    width: 80%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+   
+
+}
+.main_section-text{
+    margin-left: 0%;
+    width: 45%;
+    text-align: center;
+    color: white;
+}
+
+.herorightImg{
+   visibility: hidden;
+}
+@media only screen and (max-width: 480px) {
+   
+    .main_section-wrapper{
+        width: 100% !important;
+        margin: 0% !important;
+    }
+    .main_section-card{
+        height: fit-content;
+        width: 45%;
+      
+    }
+    .herorightImg{
+    height: 90% !important ;
+    /* width: 72% !important; */
+   }
+   h6{
+    font-size: 0.8rem;
+   }
+   .main_section-text{
+    margin-top: 2%;
+    font-size: .9rem !important;
+   }
+   .main_section-card_items-text {
+    font-size: .85rem;
+   }
+   .btn{
+    font-size: 0.8rem;
+   }
+   
+  }
+
+
+
+  .header{
+    background-position: 50%;
+}
+  @media only screen and (max-width: 1100px) {
+    .header{
+        background-position: 50%;
+    }
+    .main_section-text{
+        width: 60%;
+        font-size: 17.5px;
+        text-align: center;
+    }
+    .main_section-card-row{
+        width: 75% !important;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+    }
+    .main_section-card{
+        width: 80%;
+        justify-self:center;
+        align-self: center;
+    }
+    .main_section-col{
+        align-items: center;
+        justify-content:center;
+    }
+    .main-section_badge{
+        visibility: collapse;
+        width: 0% !important;
+    }
+    .herorightImg{
+        visibility: visible;
+        width: 80% !important ;
+        margin-right: 4%;
+        height: 95% ;
+        
+    }
+     .btn{
+         width: 80% !important;
+    }
+  }
